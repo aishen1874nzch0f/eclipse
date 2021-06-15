@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<bean class="org.snaker.jfinal.access.JfinalAccess"/>
+	<bean class="org.snaker.jfinal.access.JfinalTransactionInterceptor"/>
+	<bean class="org.snaker.engine.impl.JuelExpression" />
+	
+	<bean class="com.base.flow.strategy.CustomAccessStrategy"/>
+	
+	<bean name="task" class="com.base.flow.strategy.ExtTaskParser"/>
+</config>
